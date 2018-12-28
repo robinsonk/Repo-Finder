@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: auto;
+    margin-top: auto;;
+    padding: 50px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    background-color: #34ecbe;
+}
+
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    color: white;
+    font-weight: normal;
+    font-size: 55px;
+}
+
+.description {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 65px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.user-title {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 65px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+.submit-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    height: 50px;
+    width: 200px;
+    margin-right: 25px;
+}
+
+input:focus, button:focus {
+    color: white;
+    border: 5px solid white;
+}
+
+#username-field {
+    height: 50px;
+    width: 300px;
+    color: #368570;
+    border: 2px solid white;
+    padding: 8px;
+}
+
+li {
+    list-style-type: none;
+    color: rgba(0,0,0,0.6);
+    padding-bottom: 3px;
+}
+
+ul {
+    border: 3px solid white;
+    border-radius: 7px;      
+    width: 300px;
+    margin-bottom: 45px;
+    margin-left: 0px;
+    padding: 25px;
+}
+
+a {
+    color: rgba(0,0,0,0.6);
+    padding: 10px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:focus {
+    color: yellow;
+}
+
+a:visited {
+    color: yellow;
+}
+
+input:hover {
+    color: yellow;
+}
+
+.results-box {
+    margin-bottom: 300px;
+}
+
+span {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+ul li:nth-child(2) {
+    margin-top: 15px;
+}
+
+@media only screen and (min-width:1122px) {
+
+    body {
+        background-image: linear-gradient(to left, #299c7e , #34ecbe);
+        margin-left: 300px;
+    }
+
+    ul {
+        border: 3px solid white;
+        border-radius: 7px;      
+        width: 700px;
+        margin-bottom: 45px;
+        margin-left: 0px;
+        padding: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 500px;
+        margin-bottom: 70px;
+    }
+    
+    .submit-button {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        height: 50px;
+        width: 300px;
+        margin-right: 25px;
+    }
+    
+    input:focus, button:focus {
+        color: white;
+        border: 5px solid white;
+    }
+    
+    #username-field {
+        height: 50px;
+        width: 500px;
+        color: #368570;
+        border: 2px solid white;
+        padding: 8px;
+    }
+    
+
+}
+
+
+
+

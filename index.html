@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Nunito" rel="stylesheet">
+    <title>Find GitHub Repos</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Repo Finder</h1>
+    </header>
+    <main role="main">
+        <h2 class="description">Looking for GitHub Repos?</h2>
+        <h2>Enter a username below to find their repositories!</h2>
+        <form class="repo-search">
+            <input type="text" name="username" id="username-field" placeholder="Type a username"></input>
+            <input type="submit" class="submit-button" value="Search for repos"></input>
+        </form>
+        <section role="region" class="results-section">
+            <div class="results-box">
+
+            </div>
+        </section>
+    </main>
+    
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+</html>
